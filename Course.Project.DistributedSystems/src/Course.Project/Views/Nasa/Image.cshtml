@@ -1,0 +1,15 @@
+﻿@using Course.Project.Controllers;
+@model ImageRequestModel
+@{
+    ViewData["Title"] = "Image";
+}
+<div>
+    <form asp-action="GetImage" asp-controller="Nasa" method="post">
+        <div class="form-group">
+            <label asp-for="Date"></label>
+            <input asp-for="Date" class="form-control" type="date" />
+            <span asp-validation-for="Date" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-outline-info">Load Nasa Image</button>
+    </form>
+</div>

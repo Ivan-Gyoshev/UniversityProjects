@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Project.NASA.Client", "Course.Project.NASA.HttpClient\Course.Project.NASA.Client.csproj", "{817C31DC-BA22-47B6-A6AF-B4C91720D95A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Project", "Course.Project\Course.Project.csproj", "{AAE7597B-993D-43D8-B7C6-24518CB5C13D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{817C31DC-BA22-47B6-A6AF-B4C91720D95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817C31DC-BA22-47B6-A6AF-B4C91720D95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817C31DC-BA22-47B6-A6AF-B4C91720D95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817C31DC-BA22-47B6-A6AF-B4C91720D95A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE7597B-993D-43D8-B7C6-24518CB5C13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE7597B-993D-43D8-B7C6-24518CB5C13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE7597B-993D-43D8-B7C6-24518CB5C13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE7597B-993D-43D8-B7C6-24518CB5C13D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {412B80D2-9071-4151-9165-7AA9ABFDC693}
+	EndGlobalSection
+EndGlobal

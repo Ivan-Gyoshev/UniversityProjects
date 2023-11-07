@@ -1,0 +1,30 @@
+﻿@using Course.Project.Controllers;
+@model ImageResponseModel
+@{
+    ViewData["Title"] = "Image";
+}
+
+@{
+    if(@Model is not null)
+    {
+        <section>
+            <article>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h1>@Model.Title</h1>
+                            <img src="@Model.Url" alt="Image Description" class="img-fluid mb-3">
+                            <p>@Model.Description</p>
+                            <p>Date: @Model.Date.ToString("yyyy-MM-dd")</p>
+                        </div>
+                    </div>
+                </div>
+            </article>           
+        </section>
+    }
+    else
+    {
+        <h2 class="text-decoration-underline">There is not image for that day! Enter a new one.</h2>
+    }
+    <a asp-controller="Nasa" asp-action="Image">Back</a>
+}
